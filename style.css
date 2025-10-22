@@ -75,17 +75,7 @@ font-style: normal;
 .clear{
     clear:both;
 }
-.something {
-    display: flex;
-    justify-content: center;
+.something{
+    display:flex;
     flex-wrap: wrap;
-}
-figure {
-    margin: 20px;
-    text-align: center;
-    border:2px solid black;
-    border-radius: 2px;
-}
-figure img {
-    width: 20%;
 }
