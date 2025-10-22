@@ -65,3 +65,13 @@ font-style: normal;
     height: auto;
     display: block;
 }
+      
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear{
+    clear:both;
+}
