@@ -1,4 +1,7 @@
-* {
-    margin:0px;
-    padding:0px;
+@font-face {
+    font-family:"Bristle Radiant" ;
+    src: url("bristle_radiant/Bristle Radiant.otf") format("opentype"), url("bristle_radiant/Bristle Radiant.ttf") format("truetype"), url("fonts/bristle_radiant/Bristle Radiant Italic.ttf") format("truetype"), url("bristle_radiant/Bristle Radiant Italic.otf") format("opentype");
+font-weight: normal;
+font-style: normal;
 }
+
