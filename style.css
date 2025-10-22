@@ -2,6 +2,7 @@
 * {
     margin:0px;
     padding:0px;
+    box-sizing: border-box;
 }
 header {
     background-color:rgb(157, 236, 250);
@@ -78,4 +79,19 @@ font-style: normal;
 .something{
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+figure img {
+    width:40%;
+}
+figure {
+    margin:10px;
+    width:clamp(200px,250px,300px)
+}
+figcaption {
+    font-size:120%;
+}
+h2 {
+    width:100%;
+    text-align:center;
 }
