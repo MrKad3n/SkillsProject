@@ -15,6 +15,7 @@ header {
     font-weight:bold;
     box-shadow: 0px 4px 2px -2px rgb(197, 197, 197);
     z-index: 100000;
+    padding: 10px;
 }
 header img {
     height:clamp(100px,120px,140px);
@@ -37,7 +38,7 @@ header a.options {
     border-radius: 50px;
     transition: all 0.5s;
     background-color:rgb(93, 231, 255);
-    width:clamp(100px,150px,200px);
+    width:clamp(80px,130px,180px);
 }
 header a.options:hover {
     border:3px solid rgb(0, 119, 255);
@@ -59,7 +60,12 @@ header nav a {
 font-weight: normal;
 font-style: normal;
 }
-       
+.mainImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+      
 .left{
     float:left;
 }
